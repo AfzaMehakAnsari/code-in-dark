@@ -1,0 +1,121 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(180deg, #000000, #030014) !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 100vh;  /* Ensure the body takes full height of the viewport */
+    margin: 0;      /* Remove any default margin */
+  }
+
+  .all-btn{
+    background-color: #7038FA;
+    color: #ffffff;
+  }
+  
+  .all-btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 2px 2px 5px #7038FA;
+  }
+
+  .bgimg {
+    background-image: url('file:///C:/Users/BUKC/Desktop/New%20folder/assets/img/bg%20&%20color%20palette/1st%20bg.svg');
+    background-size: cover; /* Makes sure the background covers the entire div */
+    background-position: center; /* Ensures the background is centered */
+    height: 100vh; /* Makes the div take the full height of the viewport */
+    width: 100%; /* Makes the div take the full width of the viewport */
+  }
+
+  
+  
+  footer {
+    background-color: #000000; /* Dark purple background */
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column; /* Stack logo and columns vertically */
+    align-items: flex-start; /* Align items to the left */
+    max-width: 1200px; /* Centering the footer content */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    margin-bottom: 20px; /* Space between logo and columns */
+}
+
+.logo img {
+    max-width: 150px; /* Adjust logo size */
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: flex-start; /* Align columns to the left */
+    width: 100%;
+}
+
+.column {
+    flex: 1; /* Allow columns to take equal space */
+    margin-right: 30px; /* Space between columns */
+}
+
+.column:last-child {
+    margin-right: 0; /* Remove margin for the last column */
+}
+
+.column h3 {
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 8px;
+}
+
+.column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.column ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px; /* Space between icons */
+}
+
+.social-icons img {
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+}
+
+/* New styles for the DARK text */
+.footer-dark {
+    width: 100%;
+    text-align: center; /* Center the text */
+    font-size: 250px; /* Large font size */
+    font-weight: bold; /* Make it bold */
+    font-style: italic; /* Make it italic */
+    margin-top: 20px; /* Space above the text */
+    background: linear-gradient(90deg, #6a0dad, #ff00ff, #ff6347); /* Three-color gradient */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+}
